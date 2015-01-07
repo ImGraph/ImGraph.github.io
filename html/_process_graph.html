@@ -101,15 +101,19 @@ $(document).ready(function(){initNavTree('_process_graph.html','');});
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="ProcessGraph_intro"></a>
 Introduction</h1>
-<p>As seen in section <a class="el" href="_block_section.html">Block</a>, there is 3 type of rendering allowed : asynchronous, "one shot" and synchronous. The differences between each mode imply that the graph processing should allow "push" and "pull" data flow.<br />
- "Push" event occurs when a block produces a value and wake up a child block which was waiting for a value. This is the case when, for example, an input block read a frame from a video file and give this frame to the next block.<br />
- "Pull" event occurs when a block asks for a value instead of waiting the parent to produce. This is the case when, for example, a block want to skip a frame: it will then ask the parent to render again. </p>
+<p>As seen in section <a class="el" href="_block_section.html">Block</a>, there is 3 types of rendering allowed : asynchronous, "one shot" and synchronous. The differences between each mode imply that the graph processing should allow "push" and "pull" data flow.<br />
+</p><ul>
+<li>a "Push" event occurs when a block produces a value and wake up a child block which was waiting for a value. This is the case when, for example, an input block read a frame from a video file and give this frame to the next block.<br />
+</li>
+<li>a "Pull" event occurs when a block asks for a value instead of waiting the parent to produce. This is the case when, for example, a block want to skip a frame: it will then ask the parent to render again. </li>
+</ul>
+<p>In order to allow these functionalities, we use a double linked oriented graph. Each node of the graph need to know every child that are connected, as well as its parents. <a class="el" href="classcharliesoft_1_1_graph_of_process.html">charliesoft::GraphOfProcess</a> stores a std::map of <a class="el" href="classcharliesoft_1_1_block.html">charliesoft::Block</a>, and each block stores a std::map of parameters (<a class="el" href="classcharliesoft_1_1_param_value.html">charliesoft::ParamValue</a>) which can be then be an edge of the graph. A parameter can indeed be linked to another parameter. In this case, the parameter knows its parent (the block which owns him), and if it's an input parameter, its value will be the address of the output parameter. If it's an output parameter, the children can be recovered from charliesoft::ParamValue::_distantListeners. </p>
 </div></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 7 2015 12:15:25 for ImGraph by
+    <li class="footer">Generated on Wed Jan 7 2015 14:34:46 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

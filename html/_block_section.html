@@ -101,7 +101,7 @@ $(document).ready(function(){initNavTree('_block_section.html','');});
 <div class="contents">
 <div class="textblock"><h1><a class="anchor" id="BlockSection_intro"></a>
 Introduction</h1>
-<p>A block (or node, or process) represents an operation. This can be of several types (mathematical operation, image processing, loading, ...), as well as several rendering types:</p><ul>
+<p>A block (or node, or vertex, or process) represents an operation. This can be of several types (mathematical operation, image processing, loading, ...), as well as several rendering types:</p><ul>
 <li>The asynchronous rendering. This block will produce the output independently of other blocks. It's useful when you want realtime processing.</li>
 <li>The "one shot" rendering. This block will produce the output only when input values changes. It's useful to save some CPU.</li>
 <li>The synchronous rendering. It's close to the "one shot" rendering, but the block also wait for the whole graph uses the value it has produced. It's useful when you want to process each frame of a video without skipping a single frame.</li>
@@ -111,7 +111,7 @@ Introduction</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 7 2015 12:15:25 for ImGraph by
+    <li class="footer">Generated on Wed Jan 7 2015 14:34:46 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
