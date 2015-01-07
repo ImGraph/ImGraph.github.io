@@ -12,7 +12,7 @@ var indexSectionsWithContent =
   2: "bcgist",
   3: "_",
   4: "b",
-  5: "s"
+  5: "bs"
 };
 
 var indexSectionNames =
