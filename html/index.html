@@ -28,6 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ImGraph
    </div>
@@ -121,8 +122,14 @@ Boost</h2>
 <h2><a class="anchor" id="InputLoader"></a>
 InputLoader</h2>
 <p>This is a private library used to easily load/store videos (from webcam, files or folder).<br />
-You can <a href="https://synogsm.lsis.univ-tln.fr/indefero/index.php/p/inputloader/source/tree/master/">download it here</a>. You should build and install it before building ImGraph!</p>
-<h1><a class="anchor" id="ProjectStruct"></a>
+You can <a href="https://synogsm.lsis.univ-tln.fr/indefero/index.php/p/inputloader/source/tree/master/">download it here</a>. You should build and install it before building ImGraph! </p>
+<h2><a class="anchor" id="subsection_doxygen"></a>
+Doxygen (optional)</h2>
+<p>Doxygen is used to generate the documentation of imGraph by creating an additionnal cmake target named "doc". Once the documentation is generated, please refer to html/index.html in the BINARY folder. If Doxygen cannot be found, this step is ignored (documentation for imGraph is also available online <a href="http://imgraph.github.io">here</a>). </p>
+<h1><a class="anchor" id="section_installation"></a>
+Installation</h1>
+<p>Once dependencies are installed and configured, run this cmake command from the destination folder to generate the project (for VS12 in this example) with <em>path_to_opencv</em>,<em>path_to_qt5</em>,<em>path_to_inputloader</em>,<em>path_to_boost</em> and <em>path_to_imgraph</em> corresponding to your setup: </p><div class="fragment"><div class="line">cmake -G <span class="stringliteral">&quot;Visual Studio 12 2013&quot;</span> -DOPENCV_DIR=path_to_opencv -DCMAKE_PREFIX_PATH=<span class="stringliteral">&quot;path_to_qt5;path_to_InputLoader&quot;</span> -DBOOST_ROOT=path_to_boost path_to_imGraph</div>
+</div><!-- fragment --> <h1><a class="anchor" id="ProjectStruct"></a>
 Project Structure</h1>
 <h2><a class="anchor" id="ProjectStruct_Sub1"></a>
 Scheduling and synchronization</h2>
@@ -136,7 +143,7 @@ IHM</h2>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 7 2015 14:34:47 for ImGraph by
+    <li class="footer">Generated on Wed Jan 14 2015 23:30:53 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

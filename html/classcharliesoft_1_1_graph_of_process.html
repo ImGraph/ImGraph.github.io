@@ -28,6 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ImGraph
    </div>
@@ -158,12 +159,14 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>switchPause</b> (bool
 <tr class="separator:ae243a3a7e6761b1382e59246fd061a9f"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a92c532f3e5a51ee32e8a16043046a65b"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a92c532f3e5a51ee32e8a16043046a65b">blockProduced</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process, bool fullyRendered=true)</td></tr>
 <tr class="separator:a92c532f3e5a51ee32e8a16043046a65b"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a86ea0cf297888469c2bad36a6f265f0a"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a86ea0cf297888469c2bad36a6f265f0a">blockWantToSkip</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
-<tr class="separator:a86ea0cf297888469c2bad36a6f265f0a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab4dc22eabe06536de3dfcf482208d8bd"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#ab4dc22eabe06536de3dfcf482208d8bd">shouldWaitChild</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
-<tr class="separator:ab4dc22eabe06536de3dfcf482208d8bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a58a72e8f694ce2c8cb294161a63d5b63"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a58a72e8f694ce2c8cb294161a63d5b63">shouldWaitAncestors</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
+<tr class="separator:a58a72e8f694ce2c8cb294161a63d5b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a95ba81618c252bb31598cdc3a88a51f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a95ba81618c252bb31598cdc3a88a51f7">updateAncestors</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
+<tr class="separator:a95ba81618c252bb31598cdc3a88a51f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afa8a9f3a7da23a5a5cee463efc1e9e11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#afa8a9f3a7da23a5a5cee463efc1e9e11">shouldWaitConsumers</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
 <tr class="separator:afa8a9f3a7da23a5a5cee463efc1e9e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2968688738a9cc19c87ecec0fe64e79c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a2968688738a9cc19c87ecec0fe64e79c">clearWaitingList</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
+<tr class="separator:a2968688738a9cc19c87ecec0fe64e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef6a0e141cb8201b04221dd52e2e8cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ef6a0e141cb8201b04221dd52e2e8cd"></a>
 std::vector&lt; <a class="el" href="classcharliesoft_1_1_block.html">Block</a> * &gt; &amp;&#160;</td><td class="memItemRight" valign="bottom"><b>getVertices</b> ()</td></tr>
 <tr class="separator:a6ef6a0e141cb8201b04221dd52e2e8cd"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -176,9 +179,6 @@ Static Public Attributes</h2></td></tr>
 <tr class="memitem:ac5c5e3efd2171d6682a94d4ab2d15e33"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac5c5e3efd2171d6682a94d4ab2d15e33"></a>
 static bool&#160;</td><td class="memItemRight" valign="bottom"><b>pauseProcess</b> = false</td></tr>
 <tr class="separator:ac5c5e3efd2171d6682a94d4ab2d15e33"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:acb6c6aaab831e304390f36efb5449de0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acb6c6aaab831e304390f36efb5449de0"></a>
-static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_current_timestamp</b> = 0</td></tr>
-<tr class="separator:acb6c6aaab831e304390f36efb5449de0"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
 <h2 class="groupheader">Member Function Documentation</h2>
 <a class="anchor" id="a92c532f3e5a51ee32e8a16043046a65b"></a>
@@ -209,12 +209,12 @@ static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_curre
 
 </div>
 </div>
-<a class="anchor" id="a86ea0cf297888469c2bad36a6f265f0a"></a>
+<a class="anchor" id="a2968688738a9cc19c87ecec0fe64e79c"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void charliesoft::GraphOfProcess::blockWantToSkip </td>
+          <td class="memname">void charliesoft::GraphOfProcess::clearWaitingList </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcharliesoft_1_1_block.html">Block</a> *&#160;</td>
           <td class="paramname"><em>process</em></td><td>)</td>
@@ -222,16 +222,16 @@ static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_curre
         </tr>
       </table>
 </div><div class="memdoc">
-<p>TODO: Verify that parameter update set timestamp, even if not linked! But don't change timestamp if value set is the same as previous stored value. </p>
+<p>Reset the waiting list of block of the parameter </p>
 
 </div>
 </div>
-<a class="anchor" id="ab4dc22eabe06536de3dfcf482208d8bd"></a>
+<a class="anchor" id="a58a72e8f694ce2c8cb294161a63d5b63"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
         <tr>
-          <td class="memname">void charliesoft::GraphOfProcess::shouldWaitChild </td>
+          <td class="memname">void charliesoft::GraphOfProcess::shouldWaitAncestors </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcharliesoft_1_1_block.html">Block</a> *&#160;</td>
           <td class="paramname"><em>process</em></td><td>)</td>
@@ -239,7 +239,7 @@ static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_curre
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Will wait for rendering block ancestor </p>
+<p>Will wait end of rendering for every block ancestor </p>
 
 </div>
 </div>
@@ -260,6 +260,23 @@ static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_curre
 
 </div>
 </div>
+<a class="anchor" id="a95ba81618c252bb31598cdc3a88a51f7"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void charliesoft::GraphOfProcess::updateAncestors </td>
+          <td>(</td>
+          <td class="paramtype"><a class="el" href="classcharliesoft_1_1_block.html">Block</a> *&#160;</td>
+          <td class="paramname"><em>process</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Ask an update for each block ancestor </p>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/<a class="el" href="_graph_8h_source.html">Graph.h</a></li>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/Graph.cpp</li>
@@ -270,7 +287,7 @@ static unsigned int&#160;</td><td class="memItemRight" valign="bottom"><b>_curre
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a></li>
-    <li class="footer">Generated on Wed Jan 7 2015 14:34:47 for ImGraph by
+    <li class="footer">Generated on Wed Jan 14 2015 23:30:52 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

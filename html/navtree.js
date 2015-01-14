@@ -7,8 +7,10 @@ var NAVTREE =
         [ "CMake", "index.html#CMake", null ],
         [ "QT", "index.html#QT", null ],
         [ "Boost", "index.html#Boost", null ],
-        [ "InputLoader", "index.html#InputLoader", null ]
+        [ "InputLoader", "index.html#InputLoader", null ],
+        [ "Doxygen (optional)", "index.html#subsection_doxygen", null ]
       ] ],
+      [ "Installation", "index.html#section_installation", null ],
       [ "Project Structure", "index.html#ProjectStruct", [
         [ "Scheduling and synchronization", "index.html#ProjectStruct_Sub1", null ],
         [ "Build a Node", "index.html#ProjectStruct_Sub2", null ],
@@ -41,8 +43,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classcharliesoft_1_1_create_param_window.html#a68a26b7d5f1da17eb0ccfa75b48a3d49",
-"classcharliesoft_1_1_params_configurator.html#a723657c00a6dacb80418aa2a643ce328"
+"classcharliesoft_1_1_condition_of_rendering.html#aee04016968edc2d298bc7faf5ae243f7",
+"classcharliesoft_1_1_param_value.html#ad9b0e4c69d9e140e91ebe98db6f062dc"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

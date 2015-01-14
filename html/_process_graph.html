@@ -28,6 +28,7 @@
 <table cellspacing="0" cellpadding="0">
  <tbody>
  <tr style="height: 56px;">
+  <td id="projectlogo"><img alt="Logo" src="logo.png"/></td>
   <td style="padding-left: 0.5em;">
    <div id="projectname">ImGraph
    </div>
@@ -103,7 +104,7 @@ $(document).ready(function(){initNavTree('_process_graph.html','');});
 Introduction</h1>
 <p>As seen in section <a class="el" href="_block_section.html">Block</a>, there is 3 types of rendering allowed : asynchronous, "one shot" and synchronous. The differences between each mode imply that the graph processing should allow "push" and "pull" data flow.<br />
 </p><ul>
-<li>a "Push" event occurs when a block produces a value and wake up a child block which was waiting for a value. This is the case when, for example, an input block read a frame from a video file and give this frame to the next block.<br />
+<li>a "Push" event occurs when a block produces a value and wake up a child block which was waiting for a value (this is true only if each input value of this block is new or constant). This is the case when, for example, an input block read a frame from a video file and give this frame to the next block.<br />
 </li>
 <li>a "Pull" event occurs when a block asks for a value instead of waiting the parent to produce. This is the case when, for example, a block want to skip a frame: it will then ask the parent to render again. </li>
 </ul>
@@ -113,7 +114,7 @@ Introduction</h1>
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
-    <li class="footer">Generated on Wed Jan 7 2015 14:34:46 for ImGraph by
+    <li class="footer">Generated on Wed Jan 14 2015 23:30:52 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>
