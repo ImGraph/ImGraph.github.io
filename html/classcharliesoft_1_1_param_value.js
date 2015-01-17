@@ -14,6 +14,7 @@ var classcharliesoft_1_1_param_value =
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#ad545cc8b0341fd0adad11044aa3b8f46", null ],
     [ "~ParamValue", "classcharliesoft_1_1_param_value.html#a823917462cbd30f0e1c6d74a2dcef73e", null ],
     [ "addValidator", "classcharliesoft_1_1_param_value.html#a50cb42a49261e7b8662a33ee57cf3b5e", null ],
+    [ "containValidator", "classcharliesoft_1_1_param_value.html#ab861430f0687c9d51e18707d8846f0d8", null ],
     [ "fromString", "classcharliesoft_1_1_param_value.html#a261fdc3d6ce7571fe903857e2aaf1844", null ],
     [ "get", "classcharliesoft_1_1_param_value.html#a9f5ac7ae74c4dfc5205083b7636b34a8", null ],
     [ "getBlock", "classcharliesoft_1_1_param_value.html#a31aa5d3c6f170a824c94115081a80b24", null ],
