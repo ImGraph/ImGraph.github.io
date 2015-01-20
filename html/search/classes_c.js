@@ -1,4 +1,5 @@
 var searchData=
 [
-  ['toolswindow',['ToolsWindow',['../class_tools_window.html',1,'']]]
+  ['subblock',['SubBlock',['../classcharliesoft_1_1_sub_block.html',1,'charliesoft']]],
+  ['subgraphparamrepresentation',['SubGraphParamRepresentation',['../classcharliesoft_1_1_sub_graph_param_representation.html',1,'charliesoft']]]
 ];

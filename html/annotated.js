@@ -1,6 +1,7 @@
 var annotated =
 [
     [ "charliesoft", null, [
+      [ "AlgoPerformance", "classcharliesoft_1_1_algo_performance.html", "classcharliesoft_1_1_algo_performance" ],
       [ "Block", "classcharliesoft_1_1_block.html", "classcharliesoft_1_1_block" ],
       [ "BlockLink", "structcharliesoft_1_1_block_link.html", "structcharliesoft_1_1_block_link" ],
       [ "ConditionConfigurator", "classcharliesoft_1_1_condition_configurator.html", "classcharliesoft_1_1_condition_configurator" ],
@@ -39,8 +40,10 @@ var annotated =
       [ "Window", "classcharliesoft_1_1_window.html", "classcharliesoft_1_1_window" ]
     ] ],
     [ "DefaultViewPort", "class_default_view_port.html", "class_default_view_port" ],
+    [ "GraphViewer", "class_graph_viewer.html", "class_graph_viewer" ],
     [ "GuiReceiver", "class_gui_receiver.html", "class_gui_receiver" ],
     [ "MatrixViewer", "class_matrix_viewer.html", "class_matrix_viewer" ],
     [ "ToolsWindow", "class_tools_window.html", "class_tools_window" ],
-    [ "ViewPort", "class_view_port.html", "class_view_port" ]
+    [ "ViewPort", "class_view_port.html", "class_view_port" ],
+    [ "Zoomer", "class_zoomer.html", "class_zoomer" ]
 ];

@@ -189,6 +189,9 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>init</b> ()</
 <tr class="memitem:af5b04f373ff204f817d510dace1a0176 inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="af5b04f373ff204f817d510dace1a0176"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>release</b> ()</td></tr>
 <tr class="separator:af5b04f373ff204f817d510dace1a0176 inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a2309984c929f0da6ed5d545403991b39 inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a2309984c929f0da6ed5d545403991b39"></a>
+int&#160;</td><td class="memItemRight" valign="bottom"><b>getPerf</b> () const </td></tr>
+<tr class="separator:a2309984c929f0da6ed5d545403991b39 inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a36f906ab32f37180ec246cd1ab54a9f4 inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a36f906ab32f37180ec246cd1ab54a9f4"></a>
 <a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getGraph</b> () const </td></tr>
 <tr class="separator:a36f906ab32f37180ec246cd1ab54a9f4 inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -248,6 +251,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasNewParameters</b> 
 <tr class="memitem:a84c7f84fc61622545bb8026f10d98372 inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84c7f84fc61622545bb8026f10d98372"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>wakeUpFromConsumers</b> ()</td></tr>
 <tr class="separator:a84c7f84fc61622545bb8026f10d98372 inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ae9cc84942b79dee2f96341d46e986822 inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae9cc84942b79dee2f96341d46e986822"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>notifyProduction</b> ()</td></tr>
+<tr class="separator:ae9cc84942b79dee2f96341d46e986822 inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afeb443cd3590a67f2395ec4ee502635e inherit pub_methods_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afeb443cd3590a67f2395ec4ee502635e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>wakeUpFromPause</b> ()</td></tr>
 <tr class="separator:afeb443cd3590a67f2395ec4ee502635e inherit pub_methods_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -367,6 +373,14 @@ std::vector&lt; <a class="el" href="structcharliesoft_1_1_block_link.html">Block
 <tr class="memitem:a904e2bfaefdb6df85aaabaaf53868e5e inherit pro_attribs_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a904e2bfaefdb6df85aaabaaf53868e5e"></a>
 boost::thread::id&#160;</td><td class="memItemRight" valign="bottom"><b>_threadID</b></td></tr>
 <tr class="separator:a904e2bfaefdb6df85aaabaaf53868e5e inherit pro_attribs_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:abd0c6b5757d2fa29c3bfce4bd137f5cc inherit pro_attribs_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abd0c6b5757d2fa29c3bfce4bd137f5cc"></a>
+boost::posix_time::ptime&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#abd0c6b5757d2fa29c3bfce4bd137f5cc">_time_start</a></td></tr>
+<tr class="memdesc:abd0c6b5757d2fa29c3bfce4bd137f5cc inherit pro_attribs_classcharliesoft_1_1_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">used to measure processing time... <br /></td></tr>
+<tr class="separator:abd0c6b5757d2fa29c3bfce4bd137f5cc inherit pro_attribs_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a879183201d064970f970a5a760cae094 inherit pro_attribs_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a879183201d064970f970a5a760cae094"></a>
+<a class="el" href="classcharliesoft_1_1_algo_performance.html">AlgoPerformance</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#a879183201d064970f970a5a760cae094">_perfCounter</a></td></tr>
+<tr class="memdesc:a879183201d064970f970a5a760cae094 inherit pro_attribs_classcharliesoft_1_1_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Used to record algo performance. <br /></td></tr>
+<tr class="separator:a879183201d064970f970a5a760cae094 inherit pro_attribs_classcharliesoft_1_1_block"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a1a520b2b99c4b406c190518de39ecf58 inherit pro_attribs_classcharliesoft_1_1_block"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1a520b2b99c4b406c190518de39ecf58"></a>
 <a class="el" href="classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7">BlockState</a>&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#a1a520b2b99c4b406c190518de39ecf58">_state</a></td></tr>
 <tr class="memdesc:a1a520b2b99c4b406c190518de39ecf58 inherit pro_attribs_classcharliesoft_1_1_block"><td class="mdescLeft">&#160;</td><td class="mdescRight">Current state of the block. <br /></td></tr>
@@ -446,7 +460,7 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_newData</b></td></tr
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_for_block.html">ForBlock</a></li>
-    <li class="footer">Generated on Sat Jan 17 2015 18:33:51 for ImGraph by
+    <li class="footer">Generated on Wed Jan 21 2015 00:13:58 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

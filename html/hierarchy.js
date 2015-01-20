@@ -1,5 +1,6 @@
 var hierarchy =
 [
+    [ "charliesoft::AlgoPerformance", "classcharliesoft_1_1_algo_performance.html", null ],
     [ "charliesoft::Block", "classcharliesoft_1_1_block.html", [
       [ "charliesoft::SubBlock", "classcharliesoft_1_1_sub_block.html", [
         [ "charliesoft::ForBlock", "classcharliesoft_1_1_for_block.html", null ]
@@ -64,6 +65,12 @@ var hierarchy =
         ] ]
       ] ],
       [ "ToolsWindow", "class_tools_window.html", null ]
+    ] ],
+    [ "QwtPlot", null, [
+      [ "GraphViewer", "class_graph_viewer.html", null ]
+    ] ],
+    [ "QwtPlotZoomer", null, [
+      [ "Zoomer", "class_zoomer.html", null ]
     ] ],
     [ "ViewPort", "class_view_port.html", [
       [ "DefaultViewPort", "class_default_view_port.html", null ]

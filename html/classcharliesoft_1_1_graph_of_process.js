@@ -12,6 +12,7 @@ var classcharliesoft_1_1_graph_of_process =
     [ "getParent", "classcharliesoft_1_1_graph_of_process.html#aa9adfd61b8365b909d57540865129b7a", null ],
     [ "getVertices", "classcharliesoft_1_1_graph_of_process.html#a6ef6a0e141cb8201b04221dd52e2e8cd", null ],
     [ "initChildDatas", "classcharliesoft_1_1_graph_of_process.html#a71b6779bbe165776925bcfcc14d4152e", null ],
+    [ "isPause", "classcharliesoft_1_1_graph_of_process.html#a862aae9a0f66fff3e1d49ddf366c9d48", null ],
     [ "removeLink", "classcharliesoft_1_1_graph_of_process.html#a57d2bc2febf2589d65fe27ce37b46fde", null ],
     [ "run", "classcharliesoft_1_1_graph_of_process.html#ad0df3ad7eb9631dd988c30150662c233", null ],
     [ "saveGraph", "classcharliesoft_1_1_graph_of_process.html#a0c6007082debd15d8471a7ac5fde855c", null ],
@@ -19,8 +20,7 @@ var classcharliesoft_1_1_graph_of_process =
     [ "shouldWaitAncestors", "classcharliesoft_1_1_graph_of_process.html#a58a72e8f694ce2c8cb294161a63d5b63", null ],
     [ "shouldWaitConsumers", "classcharliesoft_1_1_graph_of_process.html#afa8a9f3a7da23a5a5cee463efc1e9e11", null ],
     [ "stop", "classcharliesoft_1_1_graph_of_process.html#a00995f712394247e7f60e4bd767cd09a", null ],
-    [ "switchPause", "classcharliesoft_1_1_graph_of_process.html#ae243a3a7e6761b1382e59246fd061a9f", null ],
+    [ "switchPause", "classcharliesoft_1_1_graph_of_process.html#aa6d6f51c91c4b8b9bfc4ef5a3d4f3923", null ],
     [ "updateAncestors", "classcharliesoft_1_1_graph_of_process.html#a95ba81618c252bb31598cdc3a88a51f7", null ],
-    [ "waitUntilEnd", "classcharliesoft_1_1_graph_of_process.html#a9fb7d55f252f80817b4d2214913b26cb", null ],
-    [ "pauseProcess", "classcharliesoft_1_1_graph_of_process.html#ac5c5e3efd2171d6682a94d4ab2d15e33", null ]
+    [ "waitUntilEnd", "classcharliesoft_1_1_graph_of_process.html#a9fb7d55f252f80817b4d2214913b26cb", null ]
 ];

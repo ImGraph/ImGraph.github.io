@@ -1,6 +1,6 @@
 var class_default_view_port =
 [
-    [ "DefaultViewPort", "class_default_view_port.html#afe452310cc4e984e2acc0524ccc7ee31", null ],
+    [ "DefaultViewPort", "class_default_view_port.html#a293673cc33b778d8b97c8c772af3fd69", null ],
     [ "~DefaultViewPort", "class_default_view_port.html#a3afcdeb2b69c433ee27679fb66115727", null ],
     [ "contextMenuEvent", "class_default_view_port.html#aa9b50e380530fcd8ea0598b4c3d6eee1", null ],
     [ "drawLineTo", "class_default_view_port.html#af1d85ccee0c335a86e84de9036760d9d", null ],
@@ -32,6 +32,7 @@ var class_default_view_port =
     [ "toImgCoord", "class_default_view_port.html#a9eaea4c0da555c6fae698ff5ac46d87e", null ],
     [ "updateImage", "class_default_view_port.html#af928e989268187a47ef6f05bc30ae9bc", null ],
     [ "updateImage", "class_default_view_port.html#abf04522f8c4babf206af78aa630c2d73", null ],
+    [ "updateViewport", "class_default_view_port.html#ab60a25d07d8bc00a55d208b307afefe8", null ],
     [ "wheelEvent", "class_default_view_port.html#ae934c475adb2bb82056b4c172e28aeb6", null ],
     [ "writeSettings", "class_default_view_port.html#a87d27808c1c157c6a771f5bb9aaf33c2", null ],
     [ "ZoomIn", "class_default_view_port.html#a73d6b5afdf90c06b5243f5542a8d5b2d", null ],

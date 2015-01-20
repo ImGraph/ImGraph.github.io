@@ -1,4 +1,9 @@
 var searchData=
 [
-  ['internationalizator',['Internationalizator',['../classcharliesoft_1_1_internationalizator.html',1,'charliesoft']]]
+  ['globalconfig',['GlobalConfig',['../classcharliesoft_1_1_global_config.html',1,'charliesoft']]],
+  ['graphlayout',['GraphLayout',['../classcharliesoft_1_1_graph_layout.html',1,'charliesoft']]],
+  ['graphofprocess',['GraphOfProcess',['../classcharliesoft_1_1_graph_of_process.html',1,'charliesoft']]],
+  ['graphviewer',['GraphViewer',['../class_graph_viewer.html',1,'']]],
+  ['groupparamrepresentation',['GroupParamRepresentation',['../classcharliesoft_1_1_group_param_representation.html',1,'charliesoft']]],
+  ['guireceiver',['GuiReceiver',['../class_gui_receiver.html',1,'']]]
 ];
