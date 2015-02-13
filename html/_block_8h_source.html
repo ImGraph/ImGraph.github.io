@@ -201,25 +201,25 @@ $(document).ready(function(){initNavTree('_block_8h_source.html','');});
 <div class="line"><a name="l00107"></a><span class="lineno"><a class="line" href="classcharliesoft_1_1_condition_of_rendering.html">  107</a></span>&#160;  <span class="keyword">class </span><a class="code" href="classcharliesoft_1_1_condition_of_rendering.html">ConditionOfRendering</a></div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;  {</div>
 <div class="line"><a name="l00109"></a><span class="lineno">  109</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> category_left;</div>
-<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt_value_left;</div>
+<div class="line"><a name="l00110"></a><span class="lineno">  110</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt__valueleft;</div>
 <div class="line"><a name="l00111"></a><span class="lineno">  111</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> category_right;</div>
-<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt_value_right;</div>
+<div class="line"><a name="l00112"></a><span class="lineno">  112</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt__valueright;</div>
 <div class="line"><a name="l00113"></a><span class="lineno">  113</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> boolean_operator;</div>
 <div class="line"><a name="l00114"></a><span class="lineno">  114</span>&#160;    <a class="code" href="classcharliesoft_1_1_block.html">Block</a>* _father;</div>
 <div class="line"><a name="l00115"></a><span class="lineno">  115</span>&#160;  <span class="keyword">public</span>:</div>
 <div class="line"><a name="l00116"></a><span class="lineno">  116</span>&#160;    <a class="code" href="classcharliesoft_1_1_condition_of_rendering.html">ConditionOfRendering</a>();</div>
 <div class="line"><a name="l00117"></a><span class="lineno">  117</span>&#160;    <a class="code" href="classcharliesoft_1_1_condition_of_rendering.html">ConditionOfRendering</a>(<span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> category_left,</div>
-<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt_value_left,</div>
+<div class="line"><a name="l00118"></a><span class="lineno">  118</span>&#160;      <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt__valueleft,</div>
 <div class="line"><a name="l00119"></a><span class="lineno">  119</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> category_right,</div>
-<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt_value_right,</div>
+<div class="line"><a name="l00120"></a><span class="lineno">  120</span>&#160;      <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> opt__valueright,</div>
 <div class="line"><a name="l00121"></a><span class="lineno">  121</span>&#160;      <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> boolean_operator,</div>
 <div class="line"><a name="l00122"></a><span class="lineno">  122</span>&#160;      <a class="code" href="classcharliesoft_1_1_block.html">Block</a>* father);</div>
 <div class="line"><a name="l00123"></a><span class="lineno">  123</span>&#160;    <a class="code" href="classcharliesoft_1_1_condition_of_rendering.html">ConditionOfRendering</a>&amp; operator= (<span class="keyword">const</span> <a class="code" href="classcharliesoft_1_1_condition_of_rendering.html">ConditionOfRendering</a> &amp;b)</div>
 <div class="line"><a name="l00124"></a><span class="lineno">  124</span>&#160;    {</div>
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;      category_left = b.category_left;</div>
-<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      opt_value_left = b.opt_value_left;</div>
+<div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;      opt__valueleft = b.opt__valueleft;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;      category_right = b.category_right;</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      opt_value_right = b.opt_value_right;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;      opt__valueright = b.opt__valueright;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;      boolean_operator = b.boolean_operator;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;      <span class="keywordflow">if</span> (b._father != NULL)</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;        _father = b._father;</div>
@@ -228,8 +228,8 @@ $(document).ready(function(){initNavTree('_block_8h_source.html','');});
 <div class="line"><a name="l00134"></a><span class="lineno">  134</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> getCondition()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> boolean_operator; }</div>
 <div class="line"><a name="l00135"></a><span class="lineno">  135</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> getCategory_left()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> category_left; }</div>
 <div class="line"><a name="l00136"></a><span class="lineno">  136</span>&#160;    <span class="keywordtype">unsigned</span> <span class="keywordtype">char</span> getCategory_right()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> category_right; }</div>
-<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> getOpt_value_left()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> opt_value_left; }</div>
-<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> getOpt_value_right()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> opt_value_right; }</div>
+<div class="line"><a name="l00137"></a><span class="lineno">  137</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> getOpt__valueleft()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> opt__valueleft; }</div>
+<div class="line"><a name="l00138"></a><span class="lineno">  138</span>&#160;    <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> getOpt__valueright()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> opt__valueright; }</div>
 <div class="line"><a name="l00139"></a><span class="lineno">  139</span>&#160;    <a class="code" href="classcharliesoft_1_1_block.html">Block</a>* getFather()<span class="keyword"> const </span>{ <span class="keywordflow">return</span> _father; }</div>
 <div class="line"><a name="l00140"></a><span class="lineno">  140</span>&#160;</div>
 <div class="line"><a name="l00141"></a><span class="lineno">  141</span>&#160;    std::string <a class="code" href="classcharliesoft_1_1_condition_of_rendering.html#a5ad697bb223a6083b45913ea17260c5b">toString</a>();</div>
@@ -240,8 +240,8 @@ $(document).ready(function(){initNavTree('_block_8h_source.html','');});
 <div class="line"><a name="l00146"></a><span class="lineno">  146</span>&#160;</div>
 <div class="line"><a name="l00147"></a><span class="lineno">  147</span>&#160;    <span class="keywordtype">void</span> setValue(<span class="keywordtype">bool</span> left, <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a>* val);</div>
 <div class="line"><a name="l00148"></a><span class="lineno">  148</span>&#160;    <span class="keywordtype">void</span> setValue(<span class="keywordtype">bool</span> left, <a class="code" href="classcharliesoft_1_1_param_value.html">ParamValue</a> val) {</div>
-<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      <span class="keywordflow">if</span> (left)opt_value_left = val;</div>
-<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">else</span> opt_value_right = val;</div>
+<div class="line"><a name="l00149"></a><span class="lineno">  149</span>&#160;      <span class="keywordflow">if</span> (left)opt__valueleft = val;</div>
+<div class="line"><a name="l00150"></a><span class="lineno">  150</span>&#160;      <span class="keywordflow">else</span> opt__valueright = val;</div>
 <div class="line"><a name="l00151"></a><span class="lineno">  151</span>&#160;    }</div>
 <div class="line"><a name="l00152"></a><span class="lineno">  152</span>&#160;    <span class="keywordtype">void</span> setFather(<a class="code" href="classcharliesoft_1_1_block.html">Block</a>* val) { _father = val; }</div>
 <div class="line"><a name="l00153"></a><span class="lineno">  153</span>&#160;  };</div>
@@ -484,7 +484,7 @@ $(document).ready(function(){initNavTree('_block_8h_source.html','');});
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_5f34631b057237d8500e973acbfcf4b0.html">imGraph</a></li><li class="navelem"><a class="el" href="dir_b588d38c5868a877885f883e9b1ac77a.html">Sources</a></li><li class="navelem"><b>Block.h</b></li>
-    <li class="footer">Generated on Fri Feb 13 2015 18:06:53 for ImGraph by
+    <li class="footer">Generated on Fri Feb 13 2015 19:04:01 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

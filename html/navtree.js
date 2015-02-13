@@ -21,6 +21,7 @@ var NAVTREE =
     [ "Scheduling and synchronization", "_process_graph.html", [
       [ "Introduction", "_process_graph.html#ProcessGraph_intro", null ]
     ] ],
+    [ "Todo List", "todo.html", null ],
     [ "Classes", null, [
       [ "Class List", "annotated.html", "annotated" ],
       [ "Class Index", "classes.html", null ],
@@ -41,7 +42,7 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classcharliesoft_1_1_condition_of_rendering.html",
+"classcharliesoft_1_1_condition_of_rendering.html#a01c671e0761f554de995935385dbc62b",
 "classcharliesoft_1_1_param_value.html#a927bc2405128bfda1dccc9d04e415575"
 ];
 

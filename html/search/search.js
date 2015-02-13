@@ -12,7 +12,7 @@ var indexSectionsWithContent =
   2: "bcistu",
   3: "_",
   4: "b",
-  5: "bis"
+  5: "bist"
 };
 
 var indexSectionNames =

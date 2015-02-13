@@ -2,7 +2,6 @@ var class_gui_receiver =
 [
     [ "createGraph", "class_gui_receiver.html#a2c5c56f502d03fcd719a9fda8bf381a0", null ],
     [ "createWindow", "class_gui_receiver.html#a59873b996659d0bb92d09638902ec4dc", null ],
-    [ "destroyAllWindow", "class_gui_receiver.html#a748313239bdf5a50cc877dd91b3c1950", null ],
     [ "destroyWindow", "class_gui_receiver.html#a86942e372e278c27c98af1930d9b9e97", null ],
     [ "displayInfo", "class_gui_receiver.html#a1e010c3db9ebaaf1efddb8c03f558e88", null ],
     [ "enablePropertiesButtonEachWindow", "class_gui_receiver.html#ad4c4385d49e830263e996416e16d137a", null ],
