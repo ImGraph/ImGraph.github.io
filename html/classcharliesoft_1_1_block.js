@@ -2,7 +2,8 @@ var classcharliesoft_1_1_block =
 [
     [ "BlockState", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7", [
       [ "waitingChild", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7af7216231b965b3a83d48a4cc9141c9f2", null ],
-      [ "running", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7ad6b4c88f5b9a0e0afdc64b4991d30af0", null ],
+      [ "consumingParams", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7ad486a286a178bd80a12c8598a996fbb8", null ],
+      [ "consumedParams", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7a2bf2855aa3d989930ecaa143c392466e", null ],
       [ "waitingConsumers", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7ada91ab51c73954fe2a629f9fe9ff6d3c", null ],
       [ "stopped", "classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7a3166eefa4094cb5e31504ee46956bec6", null ]
     ] ],
@@ -10,7 +11,7 @@ var classcharliesoft_1_1_block =
       [ "synchrone", "classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381aa97a81fab8373aa1fc0b73915ddfd289", null ],
       [ "asynchrone", "classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381ab4d9a4f168898ac1289241f049336118", null ]
     ] ],
-    [ "Block", "classcharliesoft_1_1_block.html#a3a8f8b7f06e43850623962374ead8f44", null ],
+    [ "Block", "classcharliesoft_1_1_block.html#a31b42078b9dce3197cade9da4e13ddf5", null ],
     [ "~Block", "classcharliesoft_1_1_block.html#a93aed08ce1723c137a91cd80773862aa", null ],
     [ "addCondition", "classcharliesoft_1_1_block.html#a4b96437211789b732566f0ba04507a06", null ],
     [ "getConditions", "classcharliesoft_1_1_block.html#a073ba393f0f855a8f9603be11b8bca63", null ],
@@ -43,9 +44,10 @@ var classcharliesoft_1_1_block =
     [ "isReadyToRun", "classcharliesoft_1_1_block.html#a3e7a30ad382f4af951c370beadec39b8", null ],
     [ "isStartingBlock", "classcharliesoft_1_1_block.html#af902759756b3a0b1f816ada08aa0d60f", null ],
     [ "linkParam", "classcharliesoft_1_1_block.html#a1f583ddc881b922e0a9c9ec075d85575", null ],
-    [ "newProducedData", "classcharliesoft_1_1_block.html#ab91d8d05c54d21de2a89b591e4ed5abc", null ],
+    [ "newProducedData", "classcharliesoft_1_1_block.html#a5722adb5a32faa0e6ea8108752614992", null ],
     [ "notifyProduction", "classcharliesoft_1_1_block.html#ae9cc84942b79dee2f96341d46e986822", null ],
     [ "operator()", "classcharliesoft_1_1_block.html#a13905d5346dd8ab2150abf39fc0ba516", null ],
+    [ "paramsFullyProcessed", "classcharliesoft_1_1_block.html#aa6ae23ab07f8f6301bef05fe443edc41", null ],
     [ "release", "classcharliesoft_1_1_block.html#af5b04f373ff204f817d510dace1a0176", null ],
     [ "removeCondition", "classcharliesoft_1_1_block.html#a3a09058b7a1323b748b5cb2bcbd4c897", null ],
     [ "run", "classcharliesoft_1_1_block.html#aa6f04521d49a30297a019c4d777276f6", null ],
@@ -70,6 +72,7 @@ var classcharliesoft_1_1_block =
     [ "_error_msg", "classcharliesoft_1_1_block.html#a26104f902fd810def0a04d983da7781c", null ],
     [ "_exec_type", "classcharliesoft_1_1_block.html#a4f6d2b86fc083e59af93d755f28e2478", null ],
     [ "_executeOnlyOnce", "classcharliesoft_1_1_block.html#ae9d3f98aa0b4b8f626ceaaae6bc46169", null ],
+    [ "_isOneShot", "classcharliesoft_1_1_block.html#a601f623c8d642cf76db6cd39072f329d", null ],
     [ "_mtx", "classcharliesoft_1_1_block.html#add941fc7f5e9c5ee49efa3b487a6184b", null ],
     [ "_mtx_timestamp_inc", "classcharliesoft_1_1_block.html#a21c33c9eae34f74ab11a1ae57e3a98ce", null ],
     [ "_myInputs", "classcharliesoft_1_1_block.html#a86203b5734372b2923f04444564f6fda", null ],

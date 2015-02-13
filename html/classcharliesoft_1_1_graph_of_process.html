@@ -114,9 +114,6 @@ $(document).ready(function(){initNavTree('classcharliesoft_1_1_graph_of_process.
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ac09593d4db07b50708e160facd3cf932"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac09593d4db07b50708e160facd3cf932"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>GraphOfProcess</b> (<a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a> *parent=NULL)</td></tr>
-<tr class="separator:ac09593d4db07b50708e160facd3cf932"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a0c6007082debd15d8471a7ac5fde855c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0c6007082debd15d8471a7ac5fde855c"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>saveGraph</b> (boost::property_tree::ptree &amp;tree) const </td></tr>
 <tr class="separator:a0c6007082debd15d8471a7ac5fde855c"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -126,9 +123,9 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>fromGraph</b> (boost:
 <tr class="memitem:aa9adfd61b8365b909d57540865129b7a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa9adfd61b8365b909d57540865129b7a"></a>
 <a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getParent</b> () const </td></tr>
 <tr class="separator:aa9adfd61b8365b909d57540865129b7a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7eadeb3757b5c9eb49d221e9c6b1dda5"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7eadeb3757b5c9eb49d221e9c6b1dda5"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>setParent</b> (<a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a> *val)</td></tr>
-<tr class="separator:a7eadeb3757b5c9eb49d221e9c6b1dda5"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a329d083d51502b3c52b53fd89fb5c338"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a329d083d51502b3c52b53fd89fb5c338"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>setParent</b> (<a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a> *val, <a class="el" href="classcharliesoft_1_1_sub_block.html">SubBlock</a> *block)</td></tr>
+<tr class="separator:a329d083d51502b3c52b53fd89fb5c338"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a71b6779bbe165776925bcfcc14d4152e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a71b6779bbe165776925bcfcc14d4152e"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>initChildDatas</b> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *, std::set&lt; <a class="el" href="classcharliesoft_1_1_block.html">Block</a> * &gt; &amp;listOfRenderedBlocks)</td></tr>
 <tr class="separator:a71b6779bbe165776925bcfcc14d4152e"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -165,8 +162,8 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>isPause</b> ()</td></
 <tr class="separator:a58a72e8f694ce2c8cb294161a63d5b63"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a95ba81618c252bb31598cdc3a88a51f7"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a95ba81618c252bb31598cdc3a88a51f7">updateAncestors</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
 <tr class="separator:a95ba81618c252bb31598cdc3a88a51f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:afa8a9f3a7da23a5a5cee463efc1e9e11"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#afa8a9f3a7da23a5a5cee463efc1e9e11">shouldWaitConsumers</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
-<tr class="separator:afa8a9f3a7da23a5a5cee463efc1e9e11"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:acccdd40f8c4159d391bb025750717f55"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#acccdd40f8c4159d391bb025750717f55">shouldWaitConsumers</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process=NULL)</td></tr>
+<tr class="separator:acccdd40f8c4159d391bb025750717f55"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a2968688738a9cc19c87ecec0fe64e79c"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_graph_of_process.html#a2968688738a9cc19c87ecec0fe64e79c">clearWaitingList</a> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *process)</td></tr>
 <tr class="separator:a2968688738a9cc19c87ecec0fe64e79c"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6ef6a0e141cb8201b04221dd52e2e8cd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6ef6a0e141cb8201b04221dd52e2e8cd"></a>
@@ -239,7 +236,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removeLink</b> (const
 
 </div>
 </div>
-<a class="anchor" id="afa8a9f3a7da23a5a5cee463efc1e9e11"></a>
+<a class="anchor" id="acccdd40f8c4159d391bb025750717f55"></a>
 <div class="memitem">
 <div class="memproto">
       <table class="memname">
@@ -247,12 +244,12 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removeLink</b> (const
           <td class="memname">void charliesoft::GraphOfProcess::shouldWaitConsumers </td>
           <td>(</td>
           <td class="paramtype"><a class="el" href="classcharliesoft_1_1_block.html">Block</a> *&#160;</td>
-          <td class="paramname"><em>process</em></td><td>)</td>
+          <td class="paramname"><em>process</em> = <code>NULL</code></td><td>)</td>
           <td></td>
         </tr>
       </table>
 </div><div class="memdoc">
-<p>Will wait for childs to process the data we just produce </p>
+<p>Will wait for childs to process the data we just produce If process is NULL, will wait for every process in the graph </p>
 
 </div>
 </div>
@@ -283,7 +280,7 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>removeLink</b> (const
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_graph_of_process.html">GraphOfProcess</a></li>
-    <li class="footer">Generated on Wed Jan 21 2015 00:13:58 for ImGraph by
+    <li class="footer">Generated on Fri Feb 13 2015 18:06:53 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

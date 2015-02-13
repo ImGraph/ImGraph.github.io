@@ -131,6 +131,9 @@ Public Member Functions</h2></td></tr>
 <tr class="memitem:abc629f1de74469b06ca66962f77b244c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="abc629f1de74469b06ca66962f77b244c"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ParamValue</b> (double v)</td></tr>
 <tr class="separator:abc629f1de74469b06ca66962f77b244c"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a14c3f5051fded02495b7f966a75e3c52"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a14c3f5051fded02495b7f966a75e3c52"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ParamValue</b> (char *v)</td></tr>
+<tr class="separator:a14c3f5051fded02495b7f966a75e3c52"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a15fc7b26ab701ed72e19dc8ef22fb285"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a15fc7b26ab701ed72e19dc8ef22fb285"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>ParamValue</b> (std::string v)</td></tr>
 <tr class="separator:a15fc7b26ab701ed72e19dc8ef22fb285"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -259,9 +262,10 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>setBlock</b> (<a clas
 <tr class="memitem:a20a7b7a36d61ddffd9df5d34cf78526c"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a20a7b7a36d61ddffd9df5d34cf78526c"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getValFromList</b> ()</td></tr>
 <tr class="separator:a20a7b7a36d61ddffd9df5d34cf78526c"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9f5ac7ae74c4dfc5205083b7636b34a8"><td class="memTemplParams" colspan="2">template&lt;typename T &gt; </td></tr>
-<tr class="memitem:a9f5ac7ae74c4dfc5205083b7636b34a8"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_param_value.html#a9f5ac7ae74c4dfc5205083b7636b34a8">get</a> (bool useData) const </td></tr>
-<tr class="separator:a9f5ac7ae74c4dfc5205083b7636b34a8"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a3118c35d6ba0e0d8374005d2611fcf16"><td class="memTemplParams" colspan="2"><a class="anchor" id="a3118c35d6ba0e0d8374005d2611fcf16"></a>
+template&lt;typename T &gt; </td></tr>
+<tr class="memitem:a3118c35d6ba0e0d8374005d2611fcf16"><td class="memTemplItemLeft" align="right" valign="top">T&#160;</td><td class="memTemplItemRight" valign="bottom"><b>get</b> () const </td></tr>
+<tr class="separator:a3118c35d6ba0e0d8374005d2611fcf16"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a9d3756c4e5c0809673d1688ecc38a659"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9d3756c4e5c0809673d1688ecc38a659"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>setValue</b> (const <a class="el" href="classcharliesoft_1_1_param_value.html">ParamValue</a> *value)</td></tr>
 <tr class="separator:a9d3756c4e5c0809673d1688ecc38a659"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -281,34 +285,6 @@ Public Attributes</h2></td></tr>
 VariantClasses&#160;</td><td class="memItemRight" valign="bottom"><b>value_</b></td></tr>
 <tr class="separator:aca5889174dad798dff08478b39299723"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
-<h2 class="groupheader">Member Function Documentation</h2>
-<a class="anchor" id="a9f5ac7ae74c4dfc5205083b7636b34a8"></a>
-<div class="memitem">
-<div class="memproto">
-<div class="memtemplate">
-template&lt;typename T &gt; </div>
-<table class="mlabels">
-  <tr>
-  <td class="mlabels-left">
-      <table class="memname">
-        <tr>
-          <td class="memname">T charliesoft::ParamValue::get </td>
-          <td>(</td>
-          <td class="paramtype">bool&#160;</td>
-          <td class="paramname"><em>useData</em></td><td>)</td>
-          <td> const</td>
-        </tr>
-      </table>
-  </td>
-  <td class="mlabels-right">
-<span class="mlabels"><span class="mlabel">inline</span></span>  </td>
-  </tr>
-</table>
-</div><div class="memdoc">
-<p>Param useData, when true indicate that algorithm will process this data, so it can be marked as _isNew=false... </p>
-
-</div>
-</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/blocks/<a class="el" href="_param_value_8h_source.html">ParamValue.h</a></li>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/blocks/ParamValue.cpp</li>
@@ -319,7 +295,7 @@ template&lt;typename T &gt; </div>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_param_value.html">ParamValue</a></li>
-    <li class="footer">Generated on Wed Jan 21 2015 00:13:58 for ImGraph by
+    <li class="footer">Generated on Fri Feb 13 2015 18:06:54 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

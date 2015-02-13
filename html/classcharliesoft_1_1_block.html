@@ -132,18 +132,21 @@ Public Types</h2></td></tr>
 <b>asynchrone</b>
  }</td></tr>
 <tr class="separator:a9dc30d57daf5548594220a4ea68e7381"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ac70dd1d4ca4251b90253b5ad481760f7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7">BlockState</a> { <b>waitingChild</b> = 0, 
-<b>running</b>, 
+<tr class="memitem:ac70dd1d4ca4251b90253b5ad481760f7"><td class="memItemLeft" align="right" valign="top">enum &#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#ac70dd1d4ca4251b90253b5ad481760f7">BlockState</a> { <br />
+&#160;&#160;<b>waitingChild</b> = 0, 
+<b>consumingParams</b>, 
+<b>consumedParams</b>, 
 <b>waitingConsumers</b>, 
-<b>stopped</b>
+<br />
+&#160;&#160;<b>stopped</b>
+<br />
  }</td></tr>
 <tr class="separator:ac70dd1d4ca4251b90253b5ad481760f7"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:a3a8f8b7f06e43850623962374ead8f44"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a3a8f8b7f06e43850623962374ead8f44"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>Block</b> (std::string name, <a class="el" href="classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381">BlockType</a> typeExec=synchrone)</td></tr>
-<tr class="separator:a3a8f8b7f06e43850623962374ead8f44"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a31b42078b9dce3197cade9da4e13ddf5"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#a31b42078b9dce3197cade9da4e13ddf5">Block</a> (std::string name, bool isOneShot, <a class="el" href="classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381">BlockType</a> typeExec=synchrone)</td></tr>
+<tr class="separator:a31b42078b9dce3197cade9da4e13ddf5"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add50182982a81ed7327773fc593e27a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add50182982a81ed7327773fc593e27a7"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()</td></tr>
 <tr class="separator:add50182982a81ed7327773fc593e27a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -301,9 +304,12 @@ Protected Member Functions</h2></td></tr>
 <tr class="memitem:ad5c70b2cb5fcf90f8c24af618a8b85b0"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad5c70b2cb5fcf90f8c24af618a8b85b0"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>initParameters</b> (const std::vector&lt; <a class="el" href="structcharliesoft_1_1_param_definition.html">ParamDefinition</a> &gt; &amp;inParam, const std::vector&lt; <a class="el" href="structcharliesoft_1_1_param_definition.html">ParamDefinition</a> &gt; &amp;outParam)</td></tr>
 <tr class="separator:ad5c70b2cb5fcf90f8c24af618a8b85b0"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:ab91d8d05c54d21de2a89b591e4ed5abc"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ab91d8d05c54d21de2a89b591e4ed5abc"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>newProducedData</b> (bool fullyRendered)</td></tr>
-<tr class="separator:ab91d8d05c54d21de2a89b591e4ed5abc"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5722adb5a32faa0e6ea8108752614992"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5722adb5a32faa0e6ea8108752614992"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>newProducedData</b> ()</td></tr>
+<tr class="separator:a5722adb5a32faa0e6ea8108752614992"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6ae23ab07f8f6301bef05fe443edc41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6ae23ab07f8f6301bef05fe443edc41"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>paramsFullyProcessed</b> ()</td></tr>
+<tr class="separator:aa6ae23ab07f8f6301bef05fe443edc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:aa6f04521d49a30297a019c4d777276f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6f04521d49a30297a019c4d777276f6"></a>
 virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (bool oneShot=false)=0</td></tr>
 <tr class="separator:aa6f04521d49a30297a019c4d777276f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -386,6 +392,9 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_executeOnlyOnce</b><
 <tr class="memitem:adf4d38b33262ad4bc4444d46701a07bd"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="adf4d38b33262ad4bc4444d46701a07bd"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_newData</b></td></tr>
 <tr class="separator:adf4d38b33262ad4bc4444d46701a07bd"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a601f623c8d642cf76db6cd39072f329d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a601f623c8d642cf76db6cd39072f329d"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isOneShot</b></td></tr>
+<tr class="separator:a601f623c8d642cf76db6cd39072f329d"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="friends"></a>
 Friends</h2></td></tr>
@@ -407,10 +416,11 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>charliesoft::Process
       </table>
 </div><div class="memdoc">
 <p>Four states of blocks:</p><ul>
-<li><a class="el" href="classcharliesoft_1_1_block.html">Block</a> wait for new input values... Only synchrone block can be in this state.</li>
-<li><a class="el" href="classcharliesoft_1_1_block.html">Block</a> is active and produce new datas</li>
-<li><a class="el" href="classcharliesoft_1_1_block.html">Block</a> wait until all its output are consumed.</li>
-<li><a class="el" href="classcharliesoft_1_1_block.html">Block</a> is not yet started </li>
+<li>waitingChild: <a class="el" href="classcharliesoft_1_1_block.html">Block</a> wait for new input values... Only synchrone block can be in this state.</li>
+<li>consumingParams: <a class="el" href="classcharliesoft_1_1_block.html">Block</a> is active and produce new datas</li>
+<li>consumedParams: <a class="el" href="classcharliesoft_1_1_block.html">Block</a> produced new datas</li>
+<li>waitingConsumers: <a class="el" href="classcharliesoft_1_1_block.html">Block</a> wait until all its output are consumed.</li>
+<li>stopped: <a class="el" href="classcharliesoft_1_1_block.html">Block</a> is not yet started </li>
 </ul>
 
 </div>
@@ -431,6 +441,47 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>charliesoft::Process
 
 </div>
 </div>
+<h2 class="groupheader">Constructor &amp; Destructor Documentation</h2>
+<a class="anchor" id="a31b42078b9dce3197cade9da4e13ddf5"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">charliesoft::Block::Block </td>
+          <td>(</td>
+          <td class="paramtype">std::string&#160;</td>
+          <td class="paramname"><em>name</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>isOneShot</em>, </td>
+        </tr>
+        <tr>
+          <td class="paramkey"></td>
+          <td></td>
+          <td class="paramtype"><a class="el" href="classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381">BlockType</a>&#160;</td>
+          <td class="paramname"><em>typeExec</em> = <code>synchrone</code>&#160;</td>
+        </tr>
+        <tr>
+          <td></td>
+          <td>)</td>
+          <td></td><td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<p>Used to create a block... </p><dl class="params"><dt>Parameters</dt><dd>
+  <table class="params">
+    <tr><td class="paramname">name</td><td>block name, can be a label from <a class="el" href="classcharliesoft_1_1_internationalizator.html">Internationalizator</a> </td></tr>
+    <tr><td class="paramname">isOneShot</td><td>if the block is simple (that is, the block is state-free), set this value to true. </td></tr>
+    <tr><td class="paramname">typeExec</td><td>used to know the type of execution this bloc should have... </td></tr>
+  </table>
+  </dd>
+</dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/<a class="el" href="_block_8h_source.html">Block.h</a></li>
 <li>D:/Travail/ProjetPerso/imGraph/Sources/Block.cpp</li>
@@ -441,7 +492,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>charliesoft::Process
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_block.html">Block</a></li>
-    <li class="footer">Generated on Wed Jan 21 2015 00:13:58 for ImGraph by
+    <li class="footer">Generated on Fri Feb 13 2015 18:06:53 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

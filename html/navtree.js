@@ -1,7 +1,7 @@
 var NAVTREE =
 [
   [ "ImGraph", "index.html", [
-    [ "Surans", "index.html", [
+    [ "Block", "_block_section.html", [
       [ "Dependencies", "index.html#sec1", [
         [ "OpenCV", "index.html#OpenCV", null ],
         [ "CMake", "index.html#CMake", null ],
@@ -15,9 +15,7 @@ var NAVTREE =
         [ "Scheduling and synchronization", "index.html#ProjectStruct_Sub1", null ],
         [ "Build a Node", "index.html#ProjectStruct_Sub2", null ],
         [ "IHM", "index.html#ProjectStruct_Sub3", null ]
-      ] ]
-    ] ],
-    [ "Block", "_block_section.html", [
+      ] ],
       [ "Introduction", "_block_section.html#BlockSection_intro", null ]
     ] ],
     [ "Scheduling and synchronization", "_process_graph.html", [
@@ -43,8 +41,8 @@ var NAVTREE =
 var NAVTREEINDEX =
 [
 ".html",
-"classcharliesoft_1_1_condition_of_rendering.html#a5cfc0ad0058d79015be72917a1d482b3",
-"classcharliesoft_1_1_param_value.html#aaeaeb4b224e52a3a17decba13651825c"
+"classcharliesoft_1_1_condition_of_rendering.html",
+"classcharliesoft_1_1_param_value.html#a927bc2405128bfda1dccc9d04e415575"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

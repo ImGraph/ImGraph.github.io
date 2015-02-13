@@ -1,12 +1,12 @@
 var class_gui_receiver =
 [
-    [ "GuiReceiver", "class_gui_receiver.html#a0f840f04f1834a394fceeeca7dd88827", null ],
     [ "createGraph", "class_gui_receiver.html#a2c5c56f502d03fcd719a9fda8bf381a0", null ],
     [ "createWindow", "class_gui_receiver.html#a59873b996659d0bb92d09638902ec4dc", null ],
     [ "destroyAllWindow", "class_gui_receiver.html#a748313239bdf5a50cc877dd91b3c1950", null ],
     [ "destroyWindow", "class_gui_receiver.html#a86942e372e278c27c98af1930d9b9e97", null ],
     [ "displayInfo", "class_gui_receiver.html#a1e010c3db9ebaaf1efddb8c03f558e88", null ],
     [ "enablePropertiesButtonEachWindow", "class_gui_receiver.html#ad4c4385d49e830263e996416e16d137a", null ],
+    [ "getInstance", "class_gui_receiver.html#a104025374b7231451b8283a72db0af14", null ],
     [ "getPropWindow", "class_gui_receiver.html#aff1aa23d540c06006c295ce69c8bb771", null ],
     [ "isFullScreen", "class_gui_receiver.html#a6dd924ef78d8e7ec9e008f9007dbd032", null ],
     [ "loadWindowParameters", "class_gui_receiver.html#afc852e63d8d8e4158984d37a444927ee", null ],

@@ -205,11 +205,11 @@ $(document).ready(function(){initNavTree('_gui_receiver_8h_source.html','');});
 <div class="line"><a name="l00098"></a><span class="lineno">   98</span>&#160;</div>
 <div class="line"><a name="l00099"></a><span class="lineno"><a class="line" href="class_gui_receiver.html">   99</a></span>&#160;<span class="keyword">class </span><a class="code" href="class_gui_receiver.html">GuiReceiver</a> : <span class="keyword">public</span> QObject</div>
 <div class="line"><a name="l00100"></a><span class="lineno">  100</span>&#160;{</div>
-<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  Q_OBJECT</div>
+<div class="line"><a name="l00101"></a><span class="lineno">  101</span>&#160;  Q_OBJECT;</div>
 <div class="line"><a name="l00102"></a><span class="lineno">  102</span>&#160;</div>
-<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;<span class="keyword">public</span>:</div>
-<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;  <a class="code" href="class_gui_receiver.html">GuiReceiver</a>();</div>
-<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;</div>
+<div class="line"><a name="l00103"></a><span class="lineno">  103</span>&#160;  <a class="code" href="class_gui_receiver.html">GuiReceiver</a>();</div>
+<div class="line"><a name="l00104"></a><span class="lineno">  104</span>&#160;<span class="keyword">public</span>:</div>
+<div class="line"><a name="l00105"></a><span class="lineno">  105</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_gui_receiver.html">GuiReceiver</a>* getInstance();</div>
 <div class="line"><a name="l00106"></a><span class="lineno">  106</span>&#160;  <span class="keywordtype">bool</span> bTimeOut;</div>
 <div class="line"><a name="l00107"></a><span class="lineno">  107</span>&#160;  QTimer* timer;</div>
 <div class="line"><a name="l00108"></a><span class="lineno">  108</span>&#160;</div>
@@ -232,7 +232,7 @@ $(document).ready(function(){initNavTree('_gui_receiver_8h_source.html','');});
 <div class="line"><a name="l00125"></a><span class="lineno">  125</span>&#160;  <span class="keywordtype">void</span> enablePropertiesButtonEachWindow();</div>
 <div class="line"><a name="l00126"></a><span class="lineno">  126</span>&#160;</div>
 <div class="line"><a name="l00127"></a><span class="lineno">  127</span>&#160;<span class="keyword">private</span>:</div>
-<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <a class="code" href="class_gui_receiver.html">GuiReceiver</a>* guiMainThread;</div>
+<div class="line"><a name="l00128"></a><span class="lineno">  128</span>&#160;  <span class="keyword">static</span> <a class="code" href="class_gui_receiver.html">GuiReceiver</a>* guiMainThread;</div>
 <div class="line"><a name="l00129"></a><span class="lineno">  129</span>&#160;  <span class="keywordtype">int</span> nb_windows;</div>
 <div class="line"><a name="l00130"></a><span class="lineno">  130</span>&#160;  <span class="keywordtype">bool</span> doesExternalQAppExist;</div>
 <div class="line"><a name="l00131"></a><span class="lineno">  131</span>&#160;};</div>
@@ -240,14 +240,14 @@ $(document).ready(function(){initNavTree('_gui_receiver_8h_source.html','');});
 <div class="line"><a name="l00133"></a><span class="lineno">  133</span>&#160;<span class="preprocessor">#endif</span></div>
 <div class="ttc" id="class_gui_receiver_html"><div class="ttname"><a href="class_gui_receiver.html">GuiReceiver</a></div><div class="ttdef"><b>Definition:</b> GuiReceiver.h:99</div></div>
 <div class="ttc" id="class_matrix_viewer_html"><div class="ttname"><a href="class_matrix_viewer.html">MatrixViewer</a></div><div class="ttdef"><b>Definition:</b> MatrixViewer.h:162</div></div>
-<div class="ttc" id="class_graph_viewer_html"><div class="ttname"><a href="class_graph_viewer.html">GraphViewer</a></div><div class="ttdef"><b>Definition:</b> GraphViewer.h:63</div></div>
+<div class="ttc" id="class_graph_viewer_html"><div class="ttname"><a href="class_graph_viewer.html">GraphViewer</a></div><div class="ttdef"><b>Definition:</b> GraphViewer.h:67</div></div>
 </div><!-- fragment --></div><!-- contents -->
 </div><!-- doc-content -->
 <!-- start footer part -->
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><a class="el" href="dir_5f34631b057237d8500e973acbfcf4b0.html">imGraph</a></li><li class="navelem"><a class="el" href="dir_b588d38c5868a877885f883e9b1ac77a.html">Sources</a></li><li class="navelem"><a class="el" href="dir_cf724aafc13173478ca08a714528f5da.html">view</a></li><li class="navelem"><b>GuiReceiver.h</b></li>
-    <li class="footer">Generated on Wed Jan 21 2015 00:13:57 for ImGraph by
+    <li class="footer">Generated on Fri Feb 13 2015 18:06:53 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

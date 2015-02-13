@@ -64,10 +64,8 @@ var hierarchy =
           [ "charliesoft::MainWidget_ForGraph", "classcharliesoft_1_1_main_widget___for_graph.html", null ]
         ] ]
       ] ],
+      [ "GraphViewer", "class_graph_viewer.html", null ],
       [ "ToolsWindow", "class_tools_window.html", null ]
-    ] ],
-    [ "QwtPlot", null, [
-      [ "GraphViewer", "class_graph_viewer.html", null ]
     ] ],
     [ "QwtPlotZoomer", null, [
       [ "Zoomer", "class_zoomer.html", null ]

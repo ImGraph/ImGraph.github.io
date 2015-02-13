@@ -1,6 +1,6 @@
 var classcharliesoft_1_1_graph_of_process =
 [
-    [ "GraphOfProcess", "classcharliesoft_1_1_graph_of_process.html#ac09593d4db07b50708e160facd3cf932", null ],
+    [ "GraphOfProcess", "classcharliesoft_1_1_graph_of_process.html#aa0a93a54e5c6a11b4e7bda0664203840", null ],
     [ "~GraphOfProcess", "classcharliesoft_1_1_graph_of_process.html#a54c0ac74b358cb1a6d52fc4c942837be", null ],
     [ "addNewProcess", "classcharliesoft_1_1_graph_of_process.html#a680498f833b1c94008158b3df086dfc4", null ],
     [ "blockProduced", "classcharliesoft_1_1_graph_of_process.html#a92c532f3e5a51ee32e8a16043046a65b", null ],
@@ -16,9 +16,9 @@ var classcharliesoft_1_1_graph_of_process =
     [ "removeLink", "classcharliesoft_1_1_graph_of_process.html#a57d2bc2febf2589d65fe27ce37b46fde", null ],
     [ "run", "classcharliesoft_1_1_graph_of_process.html#ad0df3ad7eb9631dd988c30150662c233", null ],
     [ "saveGraph", "classcharliesoft_1_1_graph_of_process.html#a0c6007082debd15d8471a7ac5fde855c", null ],
-    [ "setParent", "classcharliesoft_1_1_graph_of_process.html#a7eadeb3757b5c9eb49d221e9c6b1dda5", null ],
+    [ "setParent", "classcharliesoft_1_1_graph_of_process.html#a329d083d51502b3c52b53fd89fb5c338", null ],
     [ "shouldWaitAncestors", "classcharliesoft_1_1_graph_of_process.html#a58a72e8f694ce2c8cb294161a63d5b63", null ],
-    [ "shouldWaitConsumers", "classcharliesoft_1_1_graph_of_process.html#afa8a9f3a7da23a5a5cee463efc1e9e11", null ],
+    [ "shouldWaitConsumers", "classcharliesoft_1_1_graph_of_process.html#acccdd40f8c4159d391bb025750717f55", null ],
     [ "stop", "classcharliesoft_1_1_graph_of_process.html#a00995f712394247e7f60e4bd767cd09a", null ],
     [ "switchPause", "classcharliesoft_1_1_graph_of_process.html#aa6d6f51c91c4b8b9bfc4ef5a3d4f3923", null ],
     [ "updateAncestors", "classcharliesoft_1_1_graph_of_process.html#a95ba81618c252bb31598cdc3a88a51f7", null ],

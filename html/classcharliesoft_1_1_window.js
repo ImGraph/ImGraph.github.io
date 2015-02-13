@@ -10,6 +10,7 @@ var classcharliesoft_1_1_window =
     [ "releaseInstance", "classcharliesoft_1_1_window.html#af459ee95e3b0c832afbf13dfdcf2e538", null ],
     [ "setStatusMessage", "classcharliesoft_1_1_window.html#a7afbf9b2adf79a16ddb81c4d1faf65c1", null ],
     [ "show", "classcharliesoft_1_1_window.html#a1bf67e257e73d3fc53e7712f9929101f", null ],
+    [ "showListAlgoDock", "classcharliesoft_1_1_window.html#a6dc5ea29ae6a918842c7c7d9db218d1a", null ],
     [ "synchroMainGraph", "classcharliesoft_1_1_window.html#ac67d9deeb8bf9aee90e9ade23656decf", null ],
     [ "_toolbar", "classcharliesoft_1_1_window.html#a7f12ce4b605fccf5304ce27130904980", null ],
     [ "vect_QActions", "classcharliesoft_1_1_window.html#a05d23fd27e05fef980220de91b6442d9", null ]
