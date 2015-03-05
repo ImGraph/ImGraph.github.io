@@ -1,5 +1,6 @@
 var classcharliesoft_1_1_graph_layout =
 [
+    [ "GraphLayout", "classcharliesoft_1_1_graph_layout.html#a48f48db963900719d1777e302405f392", null ],
     [ "addItem", "classcharliesoft_1_1_graph_layout.html#a48cd857d52f2f08dbdb610dd402ae57b", null ],
     [ "addLink", "classcharliesoft_1_1_graph_layout.html#a34ddd14cb5e836023a178d1e1b5b33b4", null ],
     [ "clearLayout", "classcharliesoft_1_1_graph_layout.html#a535cc9d496fbfbd6eb15a435cfaa6eee", null ],
@@ -16,5 +17,6 @@ var classcharliesoft_1_1_graph_layout =
     [ "removeSelectedLinks", "classcharliesoft_1_1_graph_layout.html#a6d687d83d070cffcbc60eaf8deba218e", null ],
     [ "sizeHint", "classcharliesoft_1_1_graph_layout.html#a31a68a03ee62d9638680492756cd4b35", null ],
     [ "synchronize", "classcharliesoft_1_1_graph_layout.html#a2a3676e4c2587b2119a5cc31f5b98fd9", null ],
-    [ "takeAt", "classcharliesoft_1_1_graph_layout.html#ad6d3af720bdccdf5c96c96674ec50198", null ]
+    [ "takeAt", "classcharliesoft_1_1_graph_layout.html#ad6d3af720bdccdf5c96c96674ec50198", null ],
+    [ "updateDock", "classcharliesoft_1_1_graph_layout.html#aeae65b0971ab542f4dd68017ceb51567", null ]
 ];

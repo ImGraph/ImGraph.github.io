@@ -4,7 +4,7 @@ var classcharliesoft_1_1_global_config =
     [ "getXML", "classcharliesoft_1_1_global_config.html#a5b800d170f6118c6acec2b20257630f9", null ],
     [ "loadConfig", "classcharliesoft_1_1_global_config.html#a60ada7fe15f9d318732334e217a305a1", null ],
     [ "release", "classcharliesoft_1_1_global_config.html#a5c1621e52154e63259e9b80fc34fd5ce", null ],
-    [ "saveConfig", "classcharliesoft_1_1_global_config.html#a2c67f42c3c0dec32a3bedcd2f1d30f23", null ],
+    [ "saveConfig", "classcharliesoft_1_1_global_config.html#a571831f046e97252e45c83ef964fbe5e", null ],
     [ "isMaximized", "classcharliesoft_1_1_global_config.html#a0c5635b8cdb5fdd2fd716e6a111c5ed6", null ],
     [ "lastPosition", "classcharliesoft_1_1_global_config.html#ab13c199d22eb6392417db332694a69c8", null ],
     [ "lastProject_", "classcharliesoft_1_1_global_config.html#ad9a3caf4e08e73830b3f3521f18916b4", null ],

@@ -1,5 +1,5 @@
 var searchData=
 [
-  ['canrender',['canRender',['../classcharliesoft_1_1_condition_of_rendering.html#a01c671e0761f554de995935385dbc62b',1,'charliesoft::ConditionOfRendering']]],
-  ['clearwaitinglist',['clearWaitingList',['../classcharliesoft_1_1_graph_of_process.html#a2968688738a9cc19c87ecec0fe64e79c',1,'charliesoft::GraphOfProcess']]]
+  ['block',['Block',['../classcharliesoft_1_1_block.html#a3800d941c7094c64e840ca3452ff797f',1,'charliesoft::Block']]],
+  ['blockproduced',['blockProduced',['../classcharliesoft_1_1_graph_of_process.html#a92c532f3e5a51ee32e8a16043046a65b',1,'charliesoft::GraphOfProcess']]]
 ];

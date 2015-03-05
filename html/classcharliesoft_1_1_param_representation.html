@@ -123,15 +123,18 @@ Inheritance diagram for charliesoft::ParamRepresentation:</div>
 <table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pub-methods"></a>
 Public Member Functions</h2></td></tr>
-<tr class="memitem:ace66e907a4b30fd09d0987bdd7b6e926"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ace66e907a4b30fd09d0987bdd7b6e926"></a>
-&#160;</td><td class="memItemRight" valign="bottom"><b>ParamRepresentation</b> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *model, <a class="el" href="structcharliesoft_1_1_param_definition.html">ParamDefinition</a> param, bool isInput, QWidget *father)</td></tr>
-<tr class="separator:ace66e907a4b30fd09d0987bdd7b6e926"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a7e41ab9068773125ab0a16ea54123854"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a7e41ab9068773125ab0a16ea54123854"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>shouldShow</b> () const </td></tr>
-<tr class="separator:a7e41ab9068773125ab0a16ea54123854"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a9180c5007895951e5ece3700ebfdfce9"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a9180c5007895951e5ece3700ebfdfce9"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setVisibility</b> (bool visible)</td></tr>
-<tr class="separator:a9180c5007895951e5ece3700ebfdfce9"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5a61f7f449d0bed95d21821c7c15b7ad"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5a61f7f449d0bed95d21821c7c15b7ad"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ParamRepresentation</b> (<a class="el" href="classcharliesoft_1_1_block.html">Block</a> *model, <a class="el" href="structcharliesoft_1_1_param_definition.html">ParamDefinition</a> *param, bool isInput, QWidget *father)</td></tr>
+<tr class="separator:a5a61f7f449d0bed95d21821c7c15b7ad"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a00dbacda88bd0af675da6a023ff1be2d"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a00dbacda88bd0af675da6a023ff1be2d"></a>
+&#160;</td><td class="memItemRight" valign="bottom"><b>ParamRepresentation</b> (<a class="el" href="classcharliesoft_1_1_param_representation.html">ParamRepresentation</a> *other)</td></tr>
+<tr class="separator:a00dbacda88bd0af675da6a023ff1be2d"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a5054a9b7f14c7a93a24148463c7019bb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a5054a9b7f14c7a93a24148463c7019bb"></a>
+virtual ParamVisibility&#160;</td><td class="memItemRight" valign="bottom"><b>shouldShow</b> () const </td></tr>
+<tr class="separator:a5054a9b7f14c7a93a24148463c7019bb"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a285ec5626be9b167ed778d619246a3da"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a285ec5626be9b167ed778d619246a3da"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setVisibility</b> (ParamVisibility visible)</td></tr>
+<tr class="separator:a285ec5626be9b167ed778d619246a3da"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad082e45dc415f040458aaa03223f35eb"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad082e45dc415f040458aaa03223f35eb"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isDefaultVal</b> () const </td></tr>
 <tr class="separator:ad082e45dc415f040458aaa03223f35eb"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -153,9 +156,14 @@ std::vector&lt; std::string &gt;&#160;</td><td class="memItemRight" valign="bott
 <tr class="memitem:aba33b47f060ea67f5b17b7bb31971d8a"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aba33b47f060ea67f5b17b7bb31971d8a"></a>
 <a class="el" href="classcharliesoft_1_1_block.html">Block</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getModel</b> () const </td></tr>
 <tr class="separator:aba33b47f060ea67f5b17b7bb31971d8a"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa91aeab506fd0ca86ef4b13b0a5573d7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa91aeab506fd0ca86ef4b13b0a5573d7"></a>
-void&#160;</td><td class="memItemRight" valign="bottom"><b>isSubParam</b> (bool param1)</td></tr>
-<tr class="separator:aa91aeab506fd0ca86ef4b13b0a5573d7"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a461bec691c1c05c5e303a7a3e0081d3f"><td class="memItemLeft" align="right" valign="top">void&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_param_representation.html#a461bec691c1c05c5e303a7a3e0081d3f">setSubParam</a> (bool param1)</td></tr>
+<tr class="separator:a461bec691c1c05c5e303a7a3e0081d3f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a904eee1372ce8b55bc2cec270d4b39df"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a904eee1372ce8b55bc2cec270d4b39df"></a>
+bool&#160;</td><td class="memItemRight" valign="bottom"><b>isSubParam</b> () const </td></tr>
+<tr class="separator:a904eee1372ce8b55bc2cec270d4b39df"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a0d2c6f002217c01561581a628322b5e6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a0d2c6f002217c01561581a628322b5e6"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>redefineParam</b> (std::string fullSubName, ParamType newType)</td></tr>
+<tr class="separator:a0d2c6f002217c01561581a628322b5e6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="inherit_header pub_methods_classcharliesoft_1_1_link_connexion_representation"><td colspan="2" onclick="javascript:toggleInherit('pub_methods_classcharliesoft_1_1_link_connexion_representation')"><img src="closed.png" alt="-"/>&#160;Public Member Functions inherited from <a class="el" href="classcharliesoft_1_1_link_connexion_representation.html">charliesoft::LinkConnexionRepresentation</a></td></tr>
 <tr class="memitem:ac95f4e7b8e8320991ae37aed6e19c0c0 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ac95f4e7b8e8320991ae37aed6e19c0c0"></a>
 &#160;</td><td class="memItemRight" valign="bottom"><b>LinkConnexionRepresentation</b> (std::string text, bool isInput, QWidget *father)</td></tr>
@@ -166,18 +174,27 @@ virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mousePressEve
 <tr class="memitem:a02f248fb893958f6296bd140ab4b3fec inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a02f248fb893958f6296bd140ab4b3fec"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mouseReleaseEvent</b> (QMouseEvent *)</td></tr>
 <tr class="separator:a02f248fb893958f6296bd140ab4b3fec inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:a50b7cf567a88396fbf7292f80bb8b93d inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a50b7cf567a88396fbf7292f80bb8b93d"></a>
-virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mouseDoubleClickEvent</b> (QMouseEvent *)</td></tr>
-<tr class="separator:a50b7cf567a88396fbf7292f80bb8b93d inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:acd86b966d97b45d05d266a713577d2c4 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="acd86b966d97b45d05d266a713577d2c4"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>mouseMoveEvent</b> (QMouseEvent *)</td></tr>
 <tr class="separator:acd86b966d97b45d05d266a713577d2c4 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a39128bdb6f7f729194ea1c8e691ead04 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a39128bdb6f7f729194ea1c8e691ead04"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>enterEvent</b> (QEvent *)</td></tr>
+<tr class="separator:a39128bdb6f7f729194ea1c8e691ead04 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a81847aadf56f2b77b84745589872d078 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a81847aadf56f2b77b84745589872d078"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> () const </td></tr>
 <tr class="separator:a81847aadf56f2b77b84745589872d078 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa07531a5c65d9dafb39182f7d2fc62d7 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa07531a5c65d9dafb39182f7d2fc62d7"></a>
+<a class="el" href="classcharliesoft_1_1_vertex_representation.html">VertexRepresentation</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getVertex</b> () const </td></tr>
+<tr class="separator:aa07531a5c65d9dafb39182f7d2fc62d7 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a84a9feeef992a0a67445be0fa346fd6e inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a84a9feeef992a0a67445be0fa346fd6e"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>isInput</b> () const </td></tr>
 <tr class="separator:a84a9feeef992a0a67445be0fa346fd6e inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a1f02ba1d4698bd82cbe280290a31a637 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a1f02ba1d4698bd82cbe280290a31a637"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setVisibility</b> (bool visible)</td></tr>
+<tr class="separator:a1f02ba1d4698bd82cbe280290a31a637 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aea48a2485f960d167663769436254bbc inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aea48a2485f960d167663769436254bbc"></a>
+void&#160;</td><td class="memItemRight" valign="bottom"><b>changeStyleProperty</b> (const char *propertyName, QVariant val)</td></tr>
+<tr class="separator:aea48a2485f960d167663769436254bbc inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a6c8e8f112658d6e0836116daa5711160 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6c8e8f112658d6e0836116daa5711160"></a>
 QPoint&#160;</td><td class="memItemRight" valign="bottom"><b>getWorldAnchor</b> ()</td></tr>
 <tr class="separator:a6c8e8f112658d6e0836116daa5711160 inherit pub_methods_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -201,16 +218,40 @@ bool&#160;</td><td class="memItemRight" valign="bottom"><b>_isInput</b></td></tr
 <tr class="memitem:a323e1b30afbd36f363306643311f419b inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a323e1b30afbd36f363306643311f419b"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>_shouldShow</b></td></tr>
 <tr class="separator:a323e1b30afbd36f363306643311f419b inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa698715d323022e7bacb47b8be981c37 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa698715d323022e7bacb47b8be981c37"></a>
+<a class="el" href="classcharliesoft_1_1_vertex_representation.html">VertexRepresentation</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_activeVertex</b></td></tr>
+<tr class="separator:aa698715d323022e7bacb47b8be981c37 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ae214a21c573ba4e715d9133961198c20 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ae214a21c573ba4e715d9133961198c20"></a>
 <a class="el" href="classcharliesoft_1_1_vertex_representation.html">VertexRepresentation</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>_vertex</b></td></tr>
 <tr class="separator:ae214a21c573ba4e715d9133961198c20 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:a98c4d9da118a42b1e46743da987b2e63 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a98c4d9da118a42b1e46743da987b2e63"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_name</b></td></tr>
 <tr class="separator:a98c4d9da118a42b1e46743da987b2e63 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:ada22f3893ea1e46c8787ae40e2950316 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ada22f3893ea1e46c8787ae40e2950316"></a>
+QWidget *&#160;</td><td class="memItemRight" valign="bottom"><b>_father</b></td></tr>
+<tr class="separator:ada22f3893ea1e46c8787ae40e2950316 inherit pro_attribs_classcharliesoft_1_1_link_connexion_representation"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table>
+<h2 class="groupheader">Member Function Documentation</h2>
+<a class="anchor" id="a461bec691c1c05c5e303a7a3e0081d3f"></a>
+<div class="memitem">
+<div class="memproto">
+      <table class="memname">
+        <tr>
+          <td class="memname">void charliesoft::ParamRepresentation::setSubParam </td>
+          <td>(</td>
+          <td class="paramtype">bool&#160;</td>
+          <td class="paramname"><em>param1</em></td><td>)</td>
+          <td></td>
+        </tr>
+      </table>
+</div><div class="memdoc">
+<dl class="todo"><dt><b><a class="el" href="todo.html#_todo000004">Todo:</a></b></dt><dd>something is wrong here... </dd></dl>
+
+</div>
+</div>
 <hr/>The documentation for this class was generated from the following files:<ul>
-<li>D:/Travail/ProjetPerso/imGraph/Sources/view/<a class="el" href="_connectors_8h_source.html">Connectors.h</a></li>
-<li>D:/Travail/ProjetPerso/imGraph/Sources/view/Connectors.cpp</li>
+<li>D:/Travail/ProjetPerso/imGraph/IHM/view/<a class="el" href="_connectors_8h_source.html">Connectors.h</a></li>
+<li>D:/Travail/ProjetPerso/imGraph/IHM/view/Connectors.cpp</li>
 </ul>
 </div><!-- contents -->
 </div><!-- doc-content -->
@@ -218,7 +259,7 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>_name</b></td>
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_param_representation.html">ParamRepresentation</a></li>
-    <li class="footer">Generated on Fri Feb 13 2015 19:04:02 for ImGraph by
+    <li class="footer">Generated on Fri Mar 6 2015 00:45:46 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

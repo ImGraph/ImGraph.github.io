@@ -15,6 +15,7 @@ var hierarchy =
     [ "charliesoft::Not_A_Value", "structcharliesoft_1_1_not___a___value.html", null ],
     [ "charliesoft::ParamDefinition", "structcharliesoft_1_1_param_definition.html", null ],
     [ "charliesoft::ParamValidator", "classcharliesoft_1_1_param_validator.html", [
+      [ "charliesoft::FileIsFolder", "classcharliesoft_1_1_file_is_folder.html", null ],
       [ "charliesoft::ValExclusif", "classcharliesoft_1_1_val_exclusif.html", null ],
       [ "charliesoft::ValFileExist", "classcharliesoft_1_1_val_file_exist.html", null ],
       [ "charliesoft::ValNeeded", "classcharliesoft_1_1_val_needed.html", null ],
@@ -22,7 +23,6 @@ var hierarchy =
       [ "charliesoft::ValPositiv", "classcharliesoft_1_1_val_positiv.html", null ],
       [ "charliesoft::ValRange", "classcharliesoft_1_1_val_range.html", null ]
     ] ],
-    [ "charliesoft::ParamValue", "classcharliesoft_1_1_param_value.html", null ],
     [ "charliesoft::ProcessManager", "classcharliesoft_1_1_process_manager.html", null ],
     [ "QDialog", null, [
       [ "charliesoft::ConditionConfigurator", "classcharliesoft_1_1_condition_configurator.html", null ],
@@ -50,15 +50,20 @@ var hierarchy =
       [ "charliesoft::Window", "classcharliesoft_1_1_window.html", null ]
     ] ],
     [ "QObject", null, [
+      [ "charliesoft::Converter", "classcharliesoft_1_1_converter.html", null ],
+      [ "charliesoft::ParamValue", "classcharliesoft_1_1_param_value.html", null ],
       [ "GuiReceiver", "class_gui_receiver.html", null ]
     ] ],
     [ "QTreeWidget", null, [
       [ "charliesoft::DraggableContainer", "classcharliesoft_1_1_draggable_container.html", null ]
     ] ],
     [ "QWidget", null, [
+      [ "charliesoft::AnyTypeWidget", "classcharliesoft_1_1_any_type_widget.html", null ],
       [ "charliesoft::GroupParamRepresentation", "classcharliesoft_1_1_group_param_representation.html", [
         [ "charliesoft::VertexRepresentation", "classcharliesoft_1_1_vertex_representation.html", null ]
       ] ],
+      [ "charliesoft::ImageViewer", "classcharliesoft_1_1_image_viewer.html", null ],
+      [ "charliesoft::MainVertexBlock", "classcharliesoft_1_1_main_vertex_block.html", null ],
       [ "charliesoft::MainWidget", "classcharliesoft_1_1_main_widget.html", [
         [ "charliesoft::MainWidget_SubGraph", "classcharliesoft_1_1_main_widget___sub_graph.html", [
           [ "charliesoft::MainWidget_ForGraph", "classcharliesoft_1_1_main_widget___for_graph.html", null ]
