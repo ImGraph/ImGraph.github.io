@@ -67,6 +67,7 @@ var classcharliesoft_1_1_block =
     [ "setExecuteOnlyOnce", "classcharliesoft_1_1_block.html#ac2a10f360db65c44fd922f3cc1ff54a4", null ],
     [ "setGraph", "classcharliesoft_1_1_block.html#a2ce8c1a3d1c3c9ec240c7bc80f4f32a3", null ],
     [ "setIncrSize", "classcharliesoft_1_1_block.html#a66125d9684f0de26ef6eb5b27c8921a7", null ],
+    [ "setParam", "classcharliesoft_1_1_block.html#a6565de8686e1c07bc1f47cf364114c9e", null ],
     [ "setParamValue", "classcharliesoft_1_1_block.html#a6351f236c21e433ced575290fd156427", null ],
     [ "setPosition", "classcharliesoft_1_1_block.html#aa77bb985c50b07238415f0820534418e", null ],
     [ "setState", "classcharliesoft_1_1_block.html#a3f0eb5623592684657b43b72f8c56202", null ],

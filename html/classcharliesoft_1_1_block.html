@@ -148,6 +148,10 @@ Public Types</h2></td></tr>
 Public Member Functions</h2></td></tr>
 <tr class="memitem:a3800d941c7094c64e840ca3452ff797f"><td class="memItemLeft" align="right" valign="top">&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#a3800d941c7094c64e840ca3452ff797f">Block</a> (std::string name, bool isOneShot, <a class="el" href="classcharliesoft_1_1_block.html#a9dc30d57daf5548594220a4ea68e7381">BlockType</a> typeExec=synchrone, bool addInputParam=false)</td></tr>
 <tr class="separator:a3800d941c7094c64e840ca3452ff797f"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a93aed08ce1723c137a91cd80773862aa"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a93aed08ce1723c137a91cd80773862aa"></a>
+virtual&#160;</td><td class="memItemRight" valign="bottom"><a class="el" href="classcharliesoft_1_1_block.html#a93aed08ce1723c137a91cd80773862aa">~Block</a> ()</td></tr>
+<tr class="memdesc:a93aed08ce1723c137a91cd80773862aa"><td class="mdescLeft">&#160;</td><td class="mdescRight">The derived block may want a personalized destructor... <br /></td></tr>
+<tr class="separator:a93aed08ce1723c137a91cd80773862aa"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:add50182982a81ed7327773fc593e27a7"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="add50182982a81ed7327773fc593e27a7"></a>
 std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()</td></tr>
 <tr class="separator:add50182982a81ed7327773fc593e27a7"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -157,6 +161,9 @@ std::string&#160;</td><td class="memItemRight" valign="bottom"><b>getName</b> ()
 <tr class="memitem:a13905d5346dd8ab2150abf39fc0ba516"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a13905d5346dd8ab2150abf39fc0ba516"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>operator()</b> ()</td></tr>
 <tr class="separator:a13905d5346dd8ab2150abf39fc0ba516"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:aa6f04521d49a30297a019c4d777276f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6f04521d49a30297a019c4d777276f6"></a>
+virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (bool oneShot=false)=0</td></tr>
+<tr class="separator:aa6f04521d49a30297a019c4d777276f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:afb89124046678615a3fd517c21a6b885"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="afb89124046678615a3fd517c21a6b885"></a>
 bool&#160;</td><td class="memItemRight" valign="bottom"><b>hasDynamicParams</b> () const </td></tr>
 <tr class="separator:afb89124046678615a3fd517c21a6b885"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -236,6 +243,9 @@ std::vector<br class="typebreak" />
 <tr class="memitem:a6351f236c21e433ced575290fd156427"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6351f236c21e433ced575290fd156427"></a>
 virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setParamValue</b> (std::string nameParam_, <a class="el" href="classcharliesoft_1_1_param_value.html">ParamValue</a> *value)</td></tr>
 <tr class="separator:a6351f236c21e433ced575290fd156427"><td class="memSeparator" colspan="2">&#160;</td></tr>
+<tr class="memitem:a6565de8686e1c07bc1f47cf364114c9e"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="a6565de8686e1c07bc1f47cf364114c9e"></a>
+virtual void&#160;</td><td class="memItemRight" valign="bottom"><b>setParam</b> (std::string nameParam_, <a class="el" href="classcharliesoft_1_1_param_value.html">ParamValue</a> value)</td></tr>
+<tr class="separator:a6565de8686e1c07bc1f47cf364114c9e"><td class="memSeparator" colspan="2">&#160;</td></tr>
 <tr class="memitem:ad65fed53030ef516b4212c30e45056ee"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="ad65fed53030ef516b4212c30e45056ee"></a>
 virtual <a class="el" href="classcharliesoft_1_1_param_value.html">ParamValue</a> *&#160;</td><td class="memItemRight" valign="bottom"><b>getParam</b> (std::string nameParam_, bool input)</td></tr>
 <tr class="separator:ad65fed53030ef516b4212c30e45056ee"><td class="memSeparator" colspan="2">&#160;</td></tr>
@@ -343,9 +353,6 @@ void&#160;</td><td class="memItemRight" valign="bottom"><b>newProducedData</b> (
 <tr class="memitem:aa6ae23ab07f8f6301bef05fe443edc41"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6ae23ab07f8f6301bef05fe443edc41"></a>
 void&#160;</td><td class="memItemRight" valign="bottom"><b>paramsFullyProcessed</b> ()</td></tr>
 <tr class="separator:aa6ae23ab07f8f6301bef05fe443edc41"><td class="memSeparator" colspan="2">&#160;</td></tr>
-<tr class="memitem:aa6f04521d49a30297a019c4d777276f6"><td class="memItemLeft" align="right" valign="top"><a class="anchor" id="aa6f04521d49a30297a019c4d777276f6"></a>
-virtual bool&#160;</td><td class="memItemRight" valign="bottom"><b>run</b> (bool oneShot=false)=0</td></tr>
-<tr class="separator:aa6f04521d49a30297a019c4d777276f6"><td class="memSeparator" colspan="2">&#160;</td></tr>
 </table><table class="memberdecls">
 <tr class="heading"><td colspan="2"><h2 class="groupheader"><a name="pro-attribs"></a>
 Protected Attributes</h2></td></tr>
@@ -637,7 +644,7 @@ class&#160;</td><td class="memItemRight" valign="bottom"><b>charliesoft::Process
 <div id="nav-path" class="navpath"><!-- id is needed for treeview function! -->
   <ul>
     <li class="navelem"><b>charliesoft</b></li><li class="navelem"><a class="el" href="classcharliesoft_1_1_block.html">Block</a></li>
-    <li class="footer">Generated on Fri Mar 6 2015 00:45:45 for ImGraph by
+    <li class="footer">Generated on Tue Mar 10 2015 14:03:55 for ImGraph by
     <a href="http://www.doxygen.org/index.html">
     <img class="footer" src="doxygen.png" alt="doxygen"/></a> 1.8.7 </li>
   </ul>

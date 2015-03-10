@@ -6,7 +6,7 @@ var classcharliesoft_1_1_param_value =
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#aa2c86a14af53116f38ffa176803807e4", null ],
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#aa9e9eaa6a911ba6ac6b5921dca2f7f35", null ],
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#abc629f1de74469b06ca66962f77b244c", null ],
-    [ "ParamValue", "classcharliesoft_1_1_param_value.html#a14c3f5051fded02495b7f966a75e3c52", null ],
+    [ "ParamValue", "classcharliesoft_1_1_param_value.html#a5c72b98a062225a1c50dab315e4d6d22", null ],
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#a15fc7b26ab701ed72e19dc8ef22fb285", null ],
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#a02c730dc0d008c62eb1ef699ac99bc95", null ],
     [ "ParamValue", "classcharliesoft_1_1_param_value.html#a7fdb428164b616f7b75ce6f6c490c3cc", null ],
@@ -18,6 +18,8 @@ var classcharliesoft_1_1_param_value =
     [ "containValidator", "classcharliesoft_1_1_param_value.html#ab861430f0687c9d51e18707d8846f0d8", null ],
     [ "fromString", "classcharliesoft_1_1_param_value.html#a261fdc3d6ce7571fe903857e2aaf1844", null ],
     [ "get", "classcharliesoft_1_1_param_value.html#a3118c35d6ba0e0d8374005d2611fcf16", null ],
+    [ "get", "classcharliesoft_1_1_param_value.html#ac321ef1d4742b9b3b0e898f9a25338b4", null ],
+    [ "get", "classcharliesoft_1_1_param_value.html#a7d48e866b862eeceff3903b469c3a31e", null ],
     [ "getBlock", "classcharliesoft_1_1_param_value.html#a31aa5d3c6f170a824c94115081a80b24", null ],
     [ "getDefinition", "classcharliesoft_1_1_param_value.html#abc8b98e5b3cb85fa02a0cd34a6865636", null ],
     [ "getListeners", "classcharliesoft_1_1_param_value.html#a927bc2405128bfda1dccc9d04e415575", null ],
@@ -36,6 +38,7 @@ var classcharliesoft_1_1_param_value =
     [ "operator=", "classcharliesoft_1_1_param_value.html#a455f24b74f5e6488f016bee59aefe077", null ],
     [ "operator=", "classcharliesoft_1_1_param_value.html#a1e266d6aa2a756f85f096c4258a2292b", null ],
     [ "operator=", "classcharliesoft_1_1_param_value.html#ae374779d7c1dc2fd723a22dcf61fc02b", null ],
+    [ "operator=", "classcharliesoft_1_1_param_value.html#a40013102b03e8b911b53de6d45181536", null ],
     [ "operator=", "classcharliesoft_1_1_param_value.html#a0c8699c2eb3017b7a4dc1dd50dacd7ff", null ],
     [ "operator=", "classcharliesoft_1_1_param_value.html#a89e20447f780ac3f8eb825d448d56dcf", null ],
     [ "operator=", "classcharliesoft_1_1_param_value.html#afd3c8f950daa39cd4a14c6eb74429509", null ],
@@ -55,6 +58,5 @@ var classcharliesoft_1_1_param_value =
     [ "toString", "classcharliesoft_1_1_param_value.html#a534915acdb04d532c908a6f587d2a7bf", null ],
     [ "update", "classcharliesoft_1_1_param_value.html#a0a15db1fd5d75c8abdec170066951f83", null ],
     [ "valid_and_set", "classcharliesoft_1_1_param_value.html#ac0676e0d4b46f0847a9bae03c565c41c", null ],
-    [ "validate", "classcharliesoft_1_1_param_value.html#a40b9a951d945434771521c067dc1cadf", null ],
-    [ "_value", "classcharliesoft_1_1_param_value.html#a7a4edb53d4936c75dbea63dedeab95d0", null ]
+    [ "validate", "classcharliesoft_1_1_param_value.html#a40b9a951d945434771521c067dc1cadf", null ]
 ];

@@ -1,5 +1,8 @@
 var NAVTREEINDEX3 =
 {
+"structcharliesoft_1_1_block_link.html#a6a91ba4bb1de32ce329707eba01797f5":[3,0,0,3,7],
+"structcharliesoft_1_1_block_link.html#a702a760957b06d5fe990852493582731":[3,0,0,3,2],
+"structcharliesoft_1_1_block_link.html#a9b58a44e3bd10c93d4bf14e3a45b4839":[3,0,0,3,8],
 "structcharliesoft_1_1_block_link.html#af91a7d834f6ed9a9acc83f8a2cda119e":[3,0,0,3,3],
 "structcharliesoft_1_1_not___a___value.html":[3,0,0,25],
 "structcharliesoft_1_1_not___a___value.html#a0f352ae822811784b024037ee3a782a9":[3,0,0,25,0],
