@@ -44,7 +44,7 @@ var NAVTREEINDEX =
 ".html",
 "classcharliesoft_1_1_block.html#ae0faebb26f637c97603bdd9cbb46f79b",
 "classcharliesoft_1_1_main_vertex_block.html#ac54947646df56eb2264ac7a4072ebdda",
-"structcharliesoft_1_1_block_link.html#a6a91ba4bb1de32ce329707eba01797f5"
+"structcharliesoft_1_1_block_link.html#a5ea67d1eb77cc7c43196e1292ca11897"
 ];
 
 var SYNCONMSG = 'click to disable panel synchronisation';

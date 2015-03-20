@@ -20,6 +20,7 @@ var classcharliesoft_1_1_param_value =
     [ "get", "classcharliesoft_1_1_param_value.html#a3118c35d6ba0e0d8374005d2611fcf16", null ],
     [ "get", "classcharliesoft_1_1_param_value.html#ac321ef1d4742b9b3b0e898f9a25338b4", null ],
     [ "get", "classcharliesoft_1_1_param_value.html#a7d48e866b862eeceff3903b469c3a31e", null ],
+    [ "get", "classcharliesoft_1_1_param_value.html#a84555a41d35695aaa5d6cd59e38e3f2f", null ],
     [ "getBlock", "classcharliesoft_1_1_param_value.html#a31aa5d3c6f170a824c94115081a80b24", null ],
     [ "getDefinition", "classcharliesoft_1_1_param_value.html#abc8b98e5b3cb85fa02a0cd34a6865636", null ],
     [ "getListeners", "classcharliesoft_1_1_param_value.html#a927bc2405128bfda1dccc9d04e415575", null ],

@@ -19,8 +19,8 @@ var classcharliesoft_1_1_graph_of_process =
     [ "setParent", "classcharliesoft_1_1_graph_of_process.html#a329d083d51502b3c52b53fd89fb5c338", null ],
     [ "shouldWaitAncestors", "classcharliesoft_1_1_graph_of_process.html#a58a72e8f694ce2c8cb294161a63d5b63", null ],
     [ "shouldWaitConsumers", "classcharliesoft_1_1_graph_of_process.html#acccdd40f8c4159d391bb025750717f55", null ],
-    [ "stop", "classcharliesoft_1_1_graph_of_process.html#a00995f712394247e7f60e4bd767cd09a", null ],
+    [ "stop", "classcharliesoft_1_1_graph_of_process.html#ab79716a4d15cdeaebd6233f99f76c748", null ],
     [ "switchPause", "classcharliesoft_1_1_graph_of_process.html#aa6d6f51c91c4b8b9bfc4ef5a3d4f3923", null ],
     [ "updateAncestors", "classcharliesoft_1_1_graph_of_process.html#a95ba81618c252bb31598cdc3a88a51f7", null ],
-    [ "waitUntilEnd", "classcharliesoft_1_1_graph_of_process.html#a9fb7d55f252f80817b4d2214913b26cb", null ]
+    [ "waitUntilEnd", "classcharliesoft_1_1_graph_of_process.html#a203e6d49c8732c7dce5d1bf6f94961a6", null ]
 ];
